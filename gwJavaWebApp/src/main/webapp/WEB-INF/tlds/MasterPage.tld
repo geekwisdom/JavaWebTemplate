@@ -1,0 +1,39 @@
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>Master Page Tag for JSP</short-name>
+  <tag>
+    <name>use</name>
+    <tag-class>org.geekwisdom.MasterPages.UseTag</tag-class>
+    <body-content>scriptless</body-content>
+  <attribute>
+       <name>masterpagefile</name>
+    </attribute>
+  <attribute>
+       <name>runat</name>
+    </attribute>
+  </tag>
+  <tag>
+    <name>contentplaceholder</name>
+    <tag-class>org.geekwisdom.MasterPages.Contentplaceholder</tag-class>
+    <body-content>scriptless</body-content>
+  <attribute>
+       <name>id</name>
+    </attribute>
+  <attribute>
+       <name>runat</name>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>content</name>
+    <tag-class>org.geekwisdom.MasterPages.ContentTag</tag-class>
+    <body-content>scriptless</body-content>
+  <attribute>
+       <name>contentplaceholderid</name>
+    </attribute>
+  <attribute>
+       <name>runat</name>
+    </attribute>
+  </tag>
+</taglib>
